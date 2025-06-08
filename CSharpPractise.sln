@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops.csproj", "{ADAF5A8B-A7BA-41E7-9939-2E0EA7FBC124}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPractise", "CSharpPractise.csproj", "{ADAF5A8B-A7BA-41E7-9939-2E0EA7FBC124}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
