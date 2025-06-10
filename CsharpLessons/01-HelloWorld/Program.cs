@@ -14,12 +14,13 @@ namespace CSharpPractise
             //  w.SumOfNumbers();
             // w.FactorialNumbers();
             // w.MultipleOfNumbers();
-            Console.WriteLine("Enter the numbers to be reversed");
-            int n = int.Parse(Console.ReadLine());
+         //  Console.WriteLine("Enter the numbers to be reversed");
+          //  int n = int.Parse(Console.ReadLine());
             //int result = w.ReversedNumber(n);
             // Console.WriteLine(result);
-            bool result = w.Palindrome(n);
-            Console.WriteLine(result);
+           // bool result = w.Palindrome(n);
+            //Console.WriteLine(result);
+            w.CountDigits();
             Console.ReadLine();
         }
     }

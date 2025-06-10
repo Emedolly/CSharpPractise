@@ -93,4 +93,25 @@ public class WhileLoop
         }
         return false;
     }
+
+    public void CountDigits()
+    {
+        Console.Write("Enter the value of n: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+        int arithmeticDigitCount = 0;
+        if (n == 0)
+        {
+            arithmeticDigitCount = 1;
+        }
+        else
+        {
+            int temp = n;
+            while (temp > 0)
+            {
+                temp /= 10;
+                arithmeticDigitCount++;
+            }
+            
+        }
+    }
 }
