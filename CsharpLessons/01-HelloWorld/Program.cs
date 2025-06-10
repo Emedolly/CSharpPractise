@@ -1,5 +1,6 @@
 ﻿using CSharpPractise;
 using CSharpPractise._02_Loops;
+using CSharpPractise._04_switch;
 
 namespace CSharpPractise
 {
@@ -20,7 +21,10 @@ namespace CSharpPractise
             // Console.WriteLine(result);
            // bool result = w.Palindrome(n);
             //Console.WriteLine(result);
-            w.CountDigits();
+            //w.CountDigits();
+            SwitchExample sw = new SwitchExample();
+            //sw.calculator();
+            sw.DaysoftheWeek();
             Console.ReadLine();
         }
     }

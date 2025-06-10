@@ -1,0 +1,18 @@
+instead of the long switch case for days of the week we can use srring array 
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Enter a day number (1-7):");
+        int day = Convert.ToInt32(Console.ReadLine());
+
+        string[] daysOfWeek = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+
+        if (day >= 1 && day <= 7)
+            Console.WriteLine($"Day: {daysOfWeek[day - 1]}");
+        else
+            Console.WriteLine("Invalid Day");
+    }
+}
