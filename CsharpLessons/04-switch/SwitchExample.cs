@@ -67,4 +67,26 @@ public class SwitchExample
                 break;
         }
     }
+
+    public void GradeBased()
+    {
+        Console.WriteLine("Enter the marks of a student");
+        int marks = Convert.ToInt32(Console.ReadLine());
+        string grade = GetGrade(marks);
+        Console.WriteLine($"your grade is :{grade}");
+        
+    }
+
+    private string GetGrade(int marks) => marks switch
+    {
+        >= 90 and <= 100 => "A",
+        >= 80 and < 90 => "B",
+        >= 70 and < 80 => "C",
+        >= 60 and < 70 => "D",
+        >= 50 and < 60 => "E",
+        >= 0 and <= 70 => "F",
+        _ => "Invalid Marks"
+
+    };
+
 }

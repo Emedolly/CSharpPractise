@@ -24,7 +24,8 @@ namespace CSharpPractise
             //w.CountDigits();
             SwitchExample sw = new SwitchExample();
             //sw.calculator();
-            sw.DaysoftheWeek();
+           //sw.DaysoftheWeek();
+           sw.GradeBased();
             Console.ReadLine();
         }
     }
