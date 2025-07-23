@@ -1,4 +1,5 @@
-﻿using CSharpPractise;
+﻿using System.Runtime.CompilerServices;
+using CSharpPractise;
 using CSharpPractise._02_Loops;
 using CSharpPractise._04_switch;
 
@@ -50,7 +51,33 @@ namespace CSharpPractise
             //     }
             // }
             // Console.WriteLine(temp);
+           // Console.ReadLine();
+            
+            // HashSet<char> vowels = new HashSet<char> {'a', 'e', 'i', 'o', 'u'}; hashset is a collection where no duplicates are allowed and fast retrieval of data but no order is maintained while looping
+            // int count = 0;
+            // Console.WriteLine("Enter any sentence or string");
+            // string input = Console.ReadLine();
+            // foreach (char c in input)
+            // {
+            //     if (vowels.Contains(c))
+            //     {
+            //         count++;
+            //     }
+            // }
+            // Console.WriteLine(count);
+            
+            //Optional parameters 
+            // var result =optionalparameters("Emeema");
+            // Console.WriteLine(result);
+            // string optionalparameters(string name, string country = "India")
+            // {
+            //     return $"welcome! {name} to our {country}";
+            // }
+
+            
             Console.ReadLine();
+            
         }
+        
     }
 }
