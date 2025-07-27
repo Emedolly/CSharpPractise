@@ -16,4 +16,14 @@ public class Beginner
         Console.WriteLine($"After swapping numbers from {number1} to {number2}");
         
     }
+/// <summary>
+/// EX: 5 as input and output should be 78
+/// </summary>
+/// <param name="radius"></param>
+    public void AreaOfCircle(double radius)
+    {
+        const double PI = 3.14;
+        double area = PI * radius * radius;
+        Console.WriteLine($"Area is {area}");
+    }
 }
