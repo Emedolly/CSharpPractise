@@ -55,4 +55,59 @@ public class Beginner
         Console.WriteLine($"Max value is {maxValue}");
     }
     #endregion
+
+    #region Conditions(if,if else, switch)
+    public void LeapYearCheck()
+    {
+        Console.WriteLine("Enter a year");
+        int year = int.Parse(Console.ReadLine());
+        if (year % 4 == 0)
+        {
+            Console.WriteLine($"The {year} is a leap year");
+        }
+        else
+        {
+            Console.WriteLine($"The {year} is not a leap year");
+        }
+    }
+
+    public void Calculator()
+    {
+        Console.WriteLine("Enter a number");
+        double number = double.Parse(Console.ReadLine());
+        Console.WriteLine("choose + or - or * or / or %");
+        char operation = char.Parse(Console.ReadLine());
+        Console.WriteLine(("Enter second number"));
+        double secondNumber = double.Parse(Console.ReadLine());
+        double result = 0;
+         
+        switch (operation)
+        {
+            case '+':
+                result = number + secondNumber;
+                break;
+            case '-':
+                result = number - secondNumber;
+                break;
+            case '/':
+                if (secondNumber == 0)
+                {
+                    Console.WriteLine("Enter any nbr apart from 0 as second number");
+                }
+                result = number / secondNumber;
+                break;
+            case '*':
+                result = number * secondNumber;
+                break;
+            case '%':
+                result = number % secondNumber;
+                break;
+            default:
+                Console.WriteLine("Invalid operation");
+                break;
+        }
+        Console.WriteLine($"The result is {result}");
+    }
+    #endregion
+    
 }
