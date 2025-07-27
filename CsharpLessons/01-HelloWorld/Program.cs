@@ -2,6 +2,7 @@
 using CSharpPractise;
 using CSharpPractise._02_Loops;
 using CSharpPractise._04_switch;
+using CSharpPractise.CsharpLessons.TopicWisePractice;
 
 namespace CSharpPractise
 {
@@ -75,7 +76,8 @@ namespace CSharpPractise
             // }
             //Started listening winforms
             //Practice OOPS and all
-            
+            Beginner beginner = new Beginner();
+            //beginner.SwapNumbers(1, 2);
             Console.ReadLine();
             
         }
