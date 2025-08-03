@@ -52,8 +52,8 @@ namespace CSharpPractise
             //     }
             // }
             // Console.WriteLine(temp);
-           // Console.ReadLine();
-            
+            // Console.ReadLine();
+
             // HashSet<char> vowels = new HashSet<char> {'a', 'e', 'i', 'o', 'u'}; hashset is a collection where no duplicates are allowed and fast retrieval of data but no order is maintained while looping
             // int count = 0;
             // Console.WriteLine("Enter any sentence or string");
@@ -66,7 +66,7 @@ namespace CSharpPractise
             //     }
             // }
             // Console.WriteLine(count);
-            
+
             //Optional parameters 
             // var result =optionalparameters("Emeema");
             // Console.WriteLine(result);
@@ -78,9 +78,19 @@ namespace CSharpPractise
             //Practice OOPS and all
             Beginner beginner = new Beginner();
             //beginner.SwapNumbers(1, 2);
+            //beginner.AreaOfCircle(5);
+            //beginner.CheckEvenOrOddNumbers();
+            //beginner.FindLargetNumbers(10,20,30);
+            //beginner.LeapYearCheck();
+            // beginner.Calculator();
+            BankAccount bankAccount = new BankAccount("ACC12345","Emeema",1000);
+            bankAccount.DisplayInfo();
+            bankAccount.Deposit(500);
+            bankAccount.Withdraw(300);
+            bankAccount.Withdraw(2000);
+            bankAccount.DisplayInfo();
+          
             Console.ReadLine();
-            
         }
-        
     }
 }
