@@ -84,12 +84,14 @@ namespace CSharpPractise
             //beginner.LeapYearCheck();
             // beginner.Calculator();
             BankAccount bankAccount = new BankAccount("ACC12345","Emeema",1000);
-            bankAccount.DisplayInfo();
-            bankAccount.Deposit(500);
-            bankAccount.Withdraw(300);
-            bankAccount.Withdraw(2000);
-            bankAccount.DisplayInfo();
-          
+            // bankAccount.DisplayInfo();
+            // bankAccount.Deposit(500);
+            // bankAccount.Withdraw(300);
+            // bankAccount.Withdraw(2000);
+            // bankAccount.DisplayInfo();
+            Employee em = new Manager("Emeema", 50000, "M001", 10000);
+            double managerSalary = em.CalculateSalary();
+            Console.WriteLine("Manager's salary is: " + managerSalary);
             Console.ReadLine();
         }
     }
