@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using BasicPrograms.Topic1;
+using CSharpPractise.DotnetLogicLab;
 
 //Console.WriteLine("Hello, World!this is eme");
 
@@ -20,6 +21,8 @@ using BasicPrograms.Topic1;
 //PM.PrintMultiplesOfNumber();
 //PrintMultiplesWithCond printMultiplesWithCond = new PrintMultiplesWithCond();
 //printMultiplesWithCond.PrintMultiplesOfNumber();
-SumUsingRecursion sumUsingRecursion = new SumUsingRecursion();
-sumUsingRecursion.SumUsingRecursion1();
+// SumUsingRecursion sumUsingRecursion = new SumUsingRecursion();
+// sumUsingRecursion.SumUsingRecursion1();
+Calculator calculator = new Calculator();
+calculator.EnterDigitsAndOperator(10,5,"+");
 Console.ReadLine();
