@@ -2,6 +2,7 @@
 
 using BasicPrograms.Topic1;
 using CSharpPractise.DotnetLogicLab;
+using CSharpPractise.DotnetLogicLab.Day02;
 
 //Console.WriteLine("Hello, World!this is eme");
 
@@ -33,6 +34,18 @@ using CSharpPractise.DotnetLogicLab;
 // reverseNumber.reverse(123);
 // PrimeNumber P = new PrimeNumber();
 // P.VerifyPrimeNumber(6);
-FizzBuzz check = new FizzBuzz();
-check.FizzBuzzPrint();
+// FizzBuzz check = new FizzBuzz();
+// check.FizzBuzzPrint();
+// SquarePrint square = new SquarePrint();
+// square.Square(5,5);
+// RightTriangle rightTriangle = new RightTriangle();
+// rightTriangle.RightTrianglePrint(5);
+// InvertedTriangle invertedTriangle = new InvertedTriangle();
+// invertedTriangle.InvertedTrianglePrint(5);
+// SumArray temp = new SumArray();
+// temp.SumAndAverageOfArray();
+// ArrayMinMax array = new ArrayMinMax();
+// array.MinAndMaxOfArray();
+ReverseArray reverseArray = new ReverseArray();
+reverseArray.ReverseOfAnArray();
 Console.ReadLine();
