@@ -3,6 +3,7 @@
 using BasicPrograms.Topic1;
 using CSharpPractise.DotnetLogicLab;
 using CSharpPractise.DotnetLogicLab.Day02;
+using CSharpPractise.DotnetLogicLab.Day03;
 
 //Console.WriteLine("Hello, World!this is eme");
 
@@ -50,6 +51,16 @@ using CSharpPractise.DotnetLogicLab.Day02;
 // reverseArray.ReverseOfAnArray();
 // EvenOdd evenOdd = new EvenOdd();
 // evenOdd.EvenOrOddInArray();
-SecondLargestNumber secondLargestNumber = new SecondLargestNumber();
-secondLargestNumber.SecondLargestNumberMethod();
+// SecondLargestNumber secondLargestNumber = new SecondLargestNumber();
+// secondLargestNumber.SecondLargestNumberMethod();
+// ReverseString reverseString = new ReverseString();
+// reverseString.ReverseOfAString();
+// PalindromeCheck palindromeCheck = new PalindromeCheck();
+// palindromeCheck.PalindromeNumber();
+// StringPalindrome strPalindrome = new StringPalindrome();
+// strPalindrome.PalindromeCheck();
+// CountVowels countVowels = new CountVowels();
+// countVowels.countVowelsAndConsonants();
+CountOccurance count = new CountOccurance();
+count.CountOccuranceOfACharacter("Program","g");
 Console.ReadLine();
