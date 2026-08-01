@@ -4,6 +4,7 @@ using BasicPrograms.Topic1;
 using CSharpPractise.DotnetLogicLab;
 using CSharpPractise.DotnetLogicLab.Day02;
 using CSharpPractise.DotnetLogicLab.Day03;
+using CSharpPractise.DotnetLogicLab.Day04;
 
 //Console.WriteLine("Hello, World!this is eme");
 
@@ -71,6 +72,23 @@ using CSharpPractise.DotnetLogicLab.Day03;
 // removeDuplicates.RemoveDuplicatesCharacters();
 // ArrayProgramMatrix arrayProgramMatrix = new ArrayProgramMatrix();
 // arrayProgramMatrix.ArrayPrint();
-TransposeOfMatrix transpose = new TransposeOfMatrix();
-transpose.Transpose();
+// TransposeOfMatrix transpose = new TransposeOfMatrix();
+// transpose.Transpose();
+// CheckEvenorOdd checkEvenorOdd = new CheckEvenorOdd();
+// bool result = checkEvenorOdd.IsEven(14);
+// if (result)
+// {
+//     Console.WriteLine("Even");
+// }
+// else
+// {
+//     Console.WriteLine("Odd");
+// }
+// MethodOverloading method = new MethodOverloading();
+// var result = method.Add(1.5, 2);
+// Console.WriteLine($"Result is: {result}");
+FactorialRecursion factorialRecursion = new FactorialRecursion();
+// factorialRecursion.FactorialNumber(5);
+int result = factorialRecursion.FactorialNumberRecursion(5);
+Console.WriteLine(result);
 Console.ReadLine();
