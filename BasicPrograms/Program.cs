@@ -95,4 +95,5 @@ FibonacciSeries fibonacciSeries = new FibonacciSeries();
 // fibonacciSeries.Fibonacci(5);
 var result = fibonacciSeries.FibonacciRecursion(4);
 Console.WriteLine(result);
+//Console.WriteLine(SumOfDigits(1234)); // 10
 Console.ReadLine();
