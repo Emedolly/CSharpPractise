@@ -5,6 +5,7 @@ using CSharpPractise.DotnetLogicLab;
 using CSharpPractise.DotnetLogicLab.Day02;
 using CSharpPractise.DotnetLogicLab.Day03;
 using CSharpPractise.DotnetLogicLab.Day04;
+using CSharpPractise.DotnetLogicLab.Day05;
 
 //Console.WriteLine("Hello, World!this is eme");
 
@@ -91,9 +92,47 @@ using CSharpPractise.DotnetLogicLab.Day04;
 // // factorialRecursion.FactorialNumber(5);
 // int result = factorialRecursion.FactorialNumberRecursion(5);
 // Console.WriteLine(result);
-FibonacciSeries fibonacciSeries = new FibonacciSeries();
-// fibonacciSeries.Fibonacci(5);
-var result = fibonacciSeries.FibonacciRecursion(4);
-Console.WriteLine(result);
+// FibonacciSeries fibonacciSeries = new FibonacciSeries();
+// // fibonacciSeries.Fibonacci(5);
+// var result = fibonacciSeries.FibonacciRecursion(4);
+// Console.WriteLine(result);
 //Console.WriteLine(SumOfDigits(1234)); // 10
+
+//Day 05
+Student student = new Student("Emeema", 26, 'A');
+Student student2 = new Student("Dolly");
+student.PrintDetails();
+student2.PrintDetails();
+Book book = new Book("Degree","Abc");
+Car car = new Car("Nexon","Blue",2024);
+car.Run();
+// Create objects
+Console.WriteLine("Creating objects...");
+Counter obj1 = new Counter();
+Counter obj2 = new Counter();
+Counter obj3 = new Counter();
+        
+Console.WriteLine();
+        
+// Display each object's info
+obj1.DisplayInfo();
+obj2.DisplayInfo();
+obj3.DisplayInfo();
+        
+Console.WriteLine();
+        
+// Display total count using different methods
+Console.WriteLine($"Total objects created (method): {Counter.GetObjectCount()}");
+Console.WriteLine($"Total objects created (property): {Counter.ObjectCount}");
+
+BankAccount bankAccount = new BankAccount(123, 500);
+bankAccount.Deposit(400);
+bankAccount.Withdraw(200);
+Console.WriteLine(bankAccount.AccountBalance);
+
+Rectangle rectangle = new Rectangle(10, 20);
+rectangle.Display();
+
+ObjectArray obj = new ObjectArray();
+obj.student();
 Console.ReadLine();
