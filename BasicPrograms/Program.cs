@@ -7,6 +7,7 @@ using CSharpPractise.DotnetLogicLab.Day03;
 using CSharpPractise.DotnetLogicLab.Day04;
 using CSharpPractise.DotnetLogicLab.Day05;
 using CSharpPractise.DotnetLogicLab.Day06;
+using CSharpPractise.DotnetLogicLab.Day07;
 
 //Console.WriteLine("Hello, World!this is eme");
 
@@ -155,15 +156,17 @@ using CSharpPractise.DotnetLogicLab.Day06;
 
 // PrintEmployee p = new PrintEmployee();
 // p.Print();
- List<IShape2> shapes = new List<IShape2>
- {
-  new Rectangle2(4, 5),
-  new Circle2(3),
-  new Triangle(6, 4, 5, 5)
- };
-
- foreach (var shape in shapes)
- {
-  Console.WriteLine($"{shape.GetType().Name} - Area: {shape.CalculateArea():F2}, Perimeter: {shape.CalculatePerimeter():F2}");
- }
+ // List<IShape2> shapes = new List<IShape2>
+ // {
+ //  new Rectangle2(4, 5),
+ //  new Circle2(3),
+ //  new Triangle(6, 4, 5, 5)
+ // };
+ //
+ // foreach (var shape in shapes)
+ // {
+ //  Console.WriteLine($"{shape.GetType().Name} - Area: {shape.CalculateArea():F2}, Perimeter: {shape.CalculatePerimeter():F2}");
+ // }
+ StudentMarks studentMarks = new StudentMarks();
+ studentMarks.studentDetails();
 Console.ReadLine();
