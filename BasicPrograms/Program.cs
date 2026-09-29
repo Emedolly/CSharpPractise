@@ -167,6 +167,7 @@ using CSharpPractise.DotnetLogicLab.Day07;
  // {
  //  Console.WriteLine($"{shape.GetType().Name} - Area: {shape.CalculateArea():F2}, Perimeter: {shape.CalculatePerimeter():F2}");
  // }
- StudentMarks studentMarks = new StudentMarks();
- studentMarks.studentDetails();
+ //StudentMarks studentMarks = new StudentMarks();
+ //studentMarks.studentDetails();
+ 
 Console.ReadLine();
